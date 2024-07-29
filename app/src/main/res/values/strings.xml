@@ -4,4 +4,6 @@
     <string name="title_activity_const_and_class">ConstAndClass</string>
     <string name="title_activity_data_class">DataClass</string>
     <string name="title_activity_variables_and_data_types">VariablesAndDataTypes</string>
+    <string name="title_activity_operators">Operators</string>
+    <string name="title_activity_condition_statment">ConditionStatment</string>
 </resources>
