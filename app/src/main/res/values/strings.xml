@@ -6,4 +6,5 @@
     <string name="title_activity_variables_and_data_types">VariablesAndDataTypes</string>
     <string name="title_activity_operators">Operators</string>
     <string name="title_activity_condition_statment">ConditionStatment</string>
+    <string name="title_activity_when_statment_and_range">WhenStatmentAndRange</string>
 </resources>
