@@ -63,49 +63,6 @@ fun  main(){
 //        }
 //    println("Computer has Chosen this $computerChoice")
 
-
-
-//    ----------Example Using When----------------
-
-//1) When as a Statement
-
-    var x = 3
-    var y = 0
-    when(x){
-        1 -> y = 1
-        2 -> y = 2
-        else -> println("None")
-    }
-    if(x <= 2) {
-        println("X :$x")
-        println("Y :$y")
-    }
-
-//2) When as an Statement   January, , March, and April  September, October, November, and December
-//    println("Enter Number:")
-//    var a = readln().toInt()
-//    var result = ""
-//    result = when {
-//        a == 1 -> "January"
-//        a == 2 -> "February"
-//        a == 3 -> "March"
-//        a == 4 -> "April"
-//        a == 5 -> "May"
-//        a == 6 -> "June"
-//        a == 7 -> "July"
-//        a == 8 -> "August"
-//        a == 9 -> "September"
-//        a == 10 -> "October"
-//        a == 11 -> "November"
-//        a == 12 -> "December"
-//        else -> "Wrong Number"
-//    }
-//
-//    println(result)
-
-
-
-
 //  -----------Using While Loop---------------
 //    var userChoice = ""
 //    var computerChoice = ""
