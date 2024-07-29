@@ -13,6 +13,27 @@
         android:theme="@style/Theme.MyDemoApplication"
         tools:targetApi="31">
         <activity
+            android:name=".DataClass"
+            android:exported="false"
+            android:label="@string/title_activity_data_class"
+            android:theme="@style/Theme.MyDemoApplication" />
+        <activity
+            android:name=".ConstAndClass"
+            android:exported="false"
+            android:label="@string/title_activity_const_and_class"
+            android:theme="@style/Theme.MyDemoApplication" />
+        <activity
+            android:name=".ui.theme.Function"
+            android:exported="true"
+            android:label="@string/title_activity_function"
+            android:theme="@style/Theme.MyDemoApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

@@ -1,5 +1,5 @@
-//package `in`.royal.mydemoapplication
-//
+package `in`.royal.mydemoapplication
+
 //import android.os.Bundle
 //import androidx.activity.ComponentActivity
 //import androidx.activity.compose.setContent
@@ -11,9 +11,9 @@
 //import androidx.compose.runtime.Composable
 //import androidx.compose.ui.Modifier
 //import androidx.compose.ui.tooling.preview.Preview
-//import `in`.royal.mydemoapplication.ui.theme.MyDemoApplicationTheme
+//import `in`.royal.mydemoapplication.ui.theme.ui.theme.MyDemoApplicationTheme
 //
-//class MainActivity : ComponentActivity() {
+//class Function : ComponentActivity() {
 //    override fun onCreate(savedInstanceState: Bundle?) {
 //        super.onCreate(savedInstanceState)
 //        enableEdgeToEdge()
@@ -42,61 +42,33 @@
 //@Composable
 //fun GreetingPreview() {
 //    MyDemoApplicationTheme {
-//        Greeting("Vivek")
+//        Greeting("Android")
 //    }
 //}
 
 
-//Multi Line Comment
-/*
-    Multi Line Comment
-*/
 
-// Print Hello World and Name in kotlin
-// fun main() is Entry Point
+
+//----------------Function---------------------------
+
+//    fun main(){
+//       var result: String =  makeCoffee(3)
+//        println(result)
+//    }
+//    fun makeCoffee(sugarCount: Int) : String{
+//        if(sugarCount == 1){
+//            return "$sugarCount spoon of sugar"
+//        }else{
+//            return "$sugerCount spoons of sugar"
+//        }
+//    }
+
+
 //fun main(){
-//    println("Hello World") // print msg and cursor got to the next line
-//    print("Vivek ") // print msg and cursor not got to the next line
-//    print("Prajapati")
+//   var result =  addition(10,20);
+//    println("Sum :${result}")
 //}
-
-fun main(){
-
-//    println("Enter No1 :")
-//    val no1 = readln()
-//    val no2 = no1.toInt()
-//    val multiplier = 10
-//    println("Multiplier of ${no1} * ${multiplier} : ${no2 * multiplier}")
-
-
-    //range
-//    1)
-    val myAge = readln().toInt()
-
-    if(myAge in 21..40){
-        println("In")
-    }else{
-        println("Out")
-    }
-
-//    2)
-    val myRange = 21..40
-    if(myRange.contains(myAge)){
-
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//fun  addition(no1: Int , no2: Int) : Int{
+//    var sum = no1 + no2;
+//    return sum
+//}
