@@ -3,17 +3,6 @@ package `in`.royal.mydemoapplication
 import java.sql.Date
 
 
-
-
-
-
-
-
-
-
-
-
-
 //fun  main(){
 //    var userChoice = ""
 //    var computerChoice = ""
