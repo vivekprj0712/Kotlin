@@ -3,7 +3,7 @@ package `in`.royal.mydemoapplication
 import java.sql.Date
 
 
-//fun  main(){
+fun  main(){
 //    var userChoice = ""
 //    var computerChoice = ""
 //    var result = ""
@@ -69,17 +69,17 @@ import java.sql.Date
 
 //1) When as a Statement
 
-//    var x = 3
-//    var y = 0
-//    when(x){
-//        1 -> y = 1
-//        2 -> y = 2
-//        else -> println("None")
-//    }
-//    if(x < 2) {
-//        println("X :$x")
-//        println("Y :$y")
-//    }
+    var x = 3
+    var y = 0
+    when(x){
+        1 -> y = 1
+        2 -> y = 2
+        else -> println("None")
+    }
+    if(x <= 2) {
+        println("X :$x")
+        println("Y :$y")
+    }
 
 //2) When as an Statement   January, , March, and April  September, October, November, and December
 //    println("Enter Number:")
@@ -143,7 +143,7 @@ import java.sql.Date
 //
 //    println(result)
 
-//}
+}
 
 
 
