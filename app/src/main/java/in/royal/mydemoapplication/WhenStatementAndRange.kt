@@ -142,4 +142,22 @@ fun main() {
 
 
 
+
+    //range
+//    1)
+    val myAge = readln().toInt()
+
+    if(myAge in 21..40){
+        println("In")
+    }else{
+        println("Out")
+    }
+
+//    2)
+    val myRange = 21..40
+    if(myRange.contains(myAge)){
+        println("In")
+    }else{
+        println("Out")
+    }
 }
