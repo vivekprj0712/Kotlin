@@ -56,3 +56,36 @@ package `in`.royal.mydemoapplication
 //        println("SugarCount is ${coffeeType.sugarCount} in coffee for ${coffeeType.name}")
 //    }
 //}
+
+
+//-----Example Of Data Class-----
+/*
+data class coffeeDetails(val name : String  , val sugarCount : Int , val size : String)
+
+fun main() {
+    var coffee = coffeeDetails("vivek",3, "xl")
+                 makeCoffee(coffee)
+}
+
+fun makeCoffee(coffee : coffeeDetails){
+
+    if(coffee.sugarCount == 1){
+        println("Coffee With ${coffee.sugarCount} Spoon of sugar for ${coffee.name}")
+    }else if(coffee.sugarCount == 0){
+        println("Coffee With no  Sagar  for ${coffee.name}")
+    }else{
+        println("Coffee With ${coffee.sugarCount} Spoon of sugar for ${coffee.name}")
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
