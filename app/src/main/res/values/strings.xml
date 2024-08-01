@@ -8,4 +8,7 @@
     <string name="title_activity_condition_statment">ConditionStatment</string>
     <string name="title_activity_when_statment_and_range">WhenStatmentAndRange</string>
     <string name="title_activity_loops">Loops</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_set">Set</string>
+    <string name="title_activity_dictionary">Dictionary</string>
 </resources>
