@@ -13,6 +13,21 @@
         android:theme="@style/Theme.MyDemoApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Dictionary"
+            android:exported="false"
+            android:label="@string/title_activity_dictionary"
+            android:theme="@style/Theme.MyDemoApplication" />
+        <activity
+            android:name=".Set"
+            android:exported="false"
+            android:label="@string/title_activity_set"
+            android:theme="@style/Theme.MyDemoApplication" />
+        <activity
+            android:name=".List"
+            android:exported="false"
+            android:label="@string/title_activity_list"
+            android:theme="@style/Theme.MyDemoApplication" />
+        <activity
             android:name=".Loops"
             android:exported="false"
             android:label="@string/title_activity_loops"
