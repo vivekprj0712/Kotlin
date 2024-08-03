@@ -11,12 +11,12 @@ package `in`.royal.mydemoapplication
          syntax:- mapOf()
  */
 
-fun main() {
-    var myMap = mapOf(
-        "One" to 1,
-        "Two" to 2,
-        "Three" to 3
-        )
+//fun main() {
+//    var myMap = mapOf(
+//        "One" to 1,
+//        "Two" to 2,
+//        "Three" to 3
+//        )
 //    println(myMap) // {one=1, Two=2, Three=3}
 
 //    how to check all keys of the map
@@ -38,5 +38,54 @@ fun main() {
 //    println(myMap.getValue("Two")) // 2
 //    println(myMap.getValue("Five"))  // Exception
 
-}
+//}
 
+
+//     2) mutable:-
+//      -> can be change the size once defined
+//      -> Operations are allowed ex:- add , remove , update
+//      syntax:- mutableMapOf()
+fun main() {
+
+    val sameMap = mutableMapOf(
+        1 to "Sun",
+        2 to "Mon",
+        3 to "Tue",
+        4 to "Wen",
+        5 to "Thu",
+        6 to "Fri",
+        7 to "Sat"
+    )
+    println(sameMap)
+
+    println(sameMap.keys)
+    println(sameMap.values)
+
+    // how to access values
+    println(sameMap[1]) // Sun
+    println(sameMap[10]) // null
+
+    for (index in 1 until sameMap.size + 1){
+        println(sameMap[index])
+    }
+
+    // how to change value
+    sameMap[1] = "Sunday"
+    println(sameMap)
+
+    // how to add values
+    sameMap[8] = "Nothing"
+    println(sameMap)
+
+    // how to remove
+    sameMap.remove(8)
+    sameMap.remove(10) // no error
+    println(sameMap)
+
+
+    val diffMap = mutableMapOf(
+            1 to "Sun",
+            "Two" to "Mon"
+        )
+    println(diffMap)
+}
