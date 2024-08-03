@@ -9,11 +9,11 @@ package `in`.royal.mydemoapplication
    1) Immutable :-
         -> Can not be change the values once declared
         -> Operations are not allowed ex:- add , remove , update
-        syntax :- setOf() , listOf<DataType>()
+        syntax :- setOf() , setOf<DataType>()
 */
 
 
-fun main() {
+//fun main() {
 
 //    var numSet = setOf(1,2,4,5,6,6,7,5)
 //    println(numSet) // [1, 2, 4, 5, 6, 7]
@@ -38,7 +38,7 @@ fun main() {
 
 
 //    Methods
-    var mySet = setOf(1,2,3,4,5,"vivek",4,5,4.4,4.4f)
+//    var mySet = setOf(1,2,3,4,5,"vivek",4,5,4.4,4.4f)
 //        1) contains(val) :- check element present or not and  return boolean value
 //            println(mySet.contains(4)) // true
 //            println(mySet.contains(14)) // false
@@ -66,19 +66,63 @@ fun main() {
 //            println(singleSet)
 
 //        5) subtract :- take all elements left side  - those elements which are common or not common
-    var mySet1 = setOf("vivek",1,2,3,4.4,3,4.4f,true)
-    var mySet2 = setOf<Int>(2,3,4,1,5,6,7)
-    var singleSet1 = mySet1 subtract   mySet2
-    var singleSet2 = mySet2 subtract   mySet1
-    println(singleSet1)
-    println(singleSet2)
+//            var mySet1 = setOf("vivek",1,2,3,4.4,3,4.4f,true)
+//            var mySet2 = setOf<Int>(2,3,4,1,5,6,7)
+//            var singleSet1 = mySet1 subtract   mySet2
+//            var singleSet2 = mySet2 subtract   mySet1
+//            println(singleSet1)
+//            println(singleSet2)
+
+//}
 
 
+fun main() {
 
+//    2) mutable :-
+//      -> Can be change the values once declared
+//      -> Operations are allowed ex:- add , remove , update
+//      syntax :- mutableSetOf() , mutableSetOf<DataType>()
 
+//    var diffElement = mutableSetOf(1, 2, 3.3, 4.4f, 5,  "5", true, true, 2, 3.3, "5")
+//    println(diffElement)
 
+//    var sameElement = mutableSetOf<String>("1" , "2" , "3" , "4" , "3" , "2")
+//    println(sameElement)
 
+//    How to create empty Set
+//    1)
+//        var emptySet = mutableSetOf("")
+//        println(emptySet)
 
+//    2)
+//        var emptySet  = mutableSetOf<Int>()
+//        println(emptySet)
+
+//    methods :-
+        val mySet = mutableSetOf(1,2,3,"four",true,5.5,6.6f)
+//        1) add(val):-
+//            mySet.add(7)
+//            println(mySet)
+
+//        2) remove(value) :-
+//            mySet.remove(3)
+//            println(mySet)
+
+//        3) get(index) :-
+//            println(mySet.get(3)) // four
+//            println(mySet.get(10)) // error
+
+//        4) [] :-
+//            println(mySet[3]) // four
+//            println(mySet[10]) // error
+
+//        5) indexOf(value) :- return value of index
+//            println(mySet.indexOf(3)) // 2
+//            println(mySet.indexOf(10)) // -1
+
+//        6) elementAt(index) :- return index of value
+            println(mySet.elementAt(3)) // four
+            println(mySet.elementAt(10)) // error
 
 
 
@@ -90,3 +134,6 @@ fun main() {
 
 
 }
+
+
+
