@@ -172,7 +172,6 @@ package `in`.royal.mydemoapplication
 //
 
 
-
 //Example of Book using class
 //class  Book(val title : String = "Unknown", val author : String = "Anonymous" ,  val publishedYear : Int = 2024 ){
 //
