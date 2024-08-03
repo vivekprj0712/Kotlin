@@ -13,6 +13,11 @@
         android:theme="@style/Theme.MyDemoApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Arrays"
+            android:exported="false"
+            android:label="@string/title_activity_arrays"
+            android:theme="@style/Theme.MyDemoApplication" />
+        <activity
             android:name=".Dictionary"
             android:exported="false"
             android:label="@string/title_activity_dictionary"
